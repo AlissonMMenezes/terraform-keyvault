@@ -3,6 +3,11 @@ variable "key_vault_name" {
   description = "Storage Account Name"
 }
 
+variable "tenant_id" {
+  type        = string
+  description = "Storage Account Name"
+}
+
 variable "resource_group_name" {
   type        = string
   description = "Resource Group Name"
